@@ -25,8 +25,9 @@ var splashImageHeight = 200;
 var position = { x: 0, y: 0, width: splashImageWidth, height: splashImageHeight }; 
 var localSplash; // the image to display
 var localSplashImage;
-var bgColor = "#464646";
-var imageSrc = '/img/logo.png';
+var bgColor = "#5C64EE";
+const transparentSquare = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII='
+var imageSrc = transparentSquare;
 var splashScreenDelay = 3000; // in milliseconds
 var showSplashScreen = true; // show splashcreen by default
 var cordova = require('cordova');
